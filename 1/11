@@ -1,0 +1,65 @@
+#bool -참거짓 true false
+#a=True #False
+#print(type(a))
+
+#논리 연산자
+#and:둘다 참이여야지 참,or:둘중 하나만 참이여도 참,==:서로같다면 참,!=:서로 같지 않다면 참
+#,<,>,>=,<=
+#a=3
+#c=7
+#b=a !=c
+#print(b)
+
+#조건문-if
+# if 조건:
+#     조건이 참일 때 실행할 코드
+#     ~
+#     ~
+#     ~
+
+#a=7
+#b=3
+#c=2
+#if (a==7 or b !=3) and c==a + b:
+   # print(a+3)
+
+#else
+# if 조건:
+#   실행코드
+#else:
+#   실행코드
+
+#a=7
+# b=3
+# c=2
+# if (a==7 or b !=3) and c==a + b:
+#    print(a+3)
+# else:
+#      print(b+c)
+
+# if 조건:
+#      실행코드
+# elif 조건:
+#      실행코드
+# elif
+#      실행코드
+# else 조건:
+#      실행코드
+
+
+#input() #-값을 입력할 수 있게 해주는 함수
+# a=input()
+# b=int(input()) #숫자로 받기
+# print(type(a))# input()함수는 문자열로 값을 받는다
+# print(type(b))
+# print(a,b)
+
+
+#숫자값을 하나 입력받아서 그 수가 홀수인지 짝수인지 판별하기
+# 홀수이면 "홀"을 출력, 짝수이면 "짝"을 출력
+
+# a=int(input())
+# if a%2==0:
+#    print("짝")
+# elif a%2 !=0: ,else:
+#    print("홀")
