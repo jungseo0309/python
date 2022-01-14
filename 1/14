@@ -1,0 +1,22 @@
+#값을 하나로 받아서 그값이 홀수인지 짝수인지
+# a= int(input())
+# if a%2==0:
+#     print("짝")
+# else :
+#     print("홀")
+
+
+#세자리 수를 입력 받아서 각 자릿수를 나누어 따로 출력   %나머지 //몫
+# a= int(input())
+# b= a%10
+# c= a//10
+# d= c%10
+# e= c//10
+# print(e,c,b,d)
+
+
+a= input()
+b= int(a[0])
+c= int(a[1])
+d= int(a[2])
+print(b,c,d)
