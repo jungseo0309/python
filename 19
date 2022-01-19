@@ -1,0 +1,56 @@
+#조건문
+# 논리연산자 and or == != > < >= <=
+#
+# and : 묶인 조건이 모두 참일때만 참
+# or : 묶인 조건들중 하나라도 참이면 참
+# == : 서로같다면 참
+# != : 서로 다르다면 참
+# > <
+# >=
+# <=
+
+#참과 거짓값만을 갖는 자료형 : bool - true, false
+# b = True
+# a = 7 > 6 and b != True  #true  false 값을 가짐
+# print(type(a))
+# print(a)
+
+
+#if  조건문
+# 조건이 참일ㄲ때 실행할 코드
+#     ~
+#     ~
+#     ~
+#
+# a= int(input())
+# if a >= 9: #if는 조건이 참이면 아래 코드를 실행함
+#     print("test")
+# elif a < 7:# elif는 if의 조건이 거짓일떄, 자신의 조건이 참이라면 아래코드를 실행.elif는 if에 종속 되어있음(독립적으로 사용 불가)
+#     print("test2")
+# elif a == 7 or a ==9:#위 조건들 중, 참인 값이 있어서 실행이 되었다면, 종속된(else,elif)조건문의 참거짓은 따지지 않고 아래로 내려감
+#     print("test3")
+# else: #위 조건들이 모두 거짓이어서 하나도 실행이 되지 않았다면 아래 코드를 실행
+#    print("test4")
+#
+# a = int(input())
+# b = int(input())
+# if a < b:
+#      print("<")
+# elif a > b:
+#     print(">")
+# elif a == b:
+#     print("==")
+
+#    print(0)
+
+a = int(input())
+if a >= 90 and a <= 100:
+    print("A")
+elif a >= 80 and  a <= 89:
+    print("B")
+elif    70<= a >= 79:
+    print("C")
+elif 60 <= a >= 69:
+    print("D")
+else :
+    print("F")
