@@ -1,0 +1,38 @@
+# a = int(input())
+# if (a % 4  == 0 and a % 100 != 0) or a % 400 == 0:
+#     print(1)
+# else:
+#     print(0)
+
+# a = int(input())
+# b = int(input())
+# if 0 < a and 0 < b:
+#     print(1)
+# elif 0 > a and 0 < b:
+#     print(2)
+# elif 0 > a and 0 > b:
+#     print(3)
+# elif 0 < a and 0 > b:
+#     print(4)
+
+
+# 반복문 - for,while
+#
+#     for 문
+#
+# for 이름 in range(반복횟수):
+#      반복할 코드
+#      ~
+#      ~
+#      ~
+#      ~
+
+# a = "hello python!"
+# for i in range(12):
+#     print(a[i])
+
+# for i in range(11):
+#     print("*"*i)
+
+for i in range(11):
+    print("*"*(10-i))
