@@ -1,0 +1,77 @@
+#break - 반복문 탈출 코드
+# for i in range(10):
+#     print("a")
+#     break
+#     print("b")
+# print("c")
+
+# for i in range(10):
+#     print("hello")
+#     if i == 7:
+#         break
+
+#continue - 현재 반복 건너뛰기 코드
+# for i in range(10):
+#     if i == 6:
+#         continue
+#     print(i)
+
+#값을 직접 입력받아서 하나씩 분해해서 세로로 출력하는 코드
+# a = (input())
+# for i in range(len(a)):
+#      print(a[i])
+#
+# len() - 길이를 알려주는 함수
+
+# a = (input())
+# b = 0
+# for i in range(len(a)):
+#     b = int(a[i]) + b
+#     print(b)
+
+# while
+# while 조건:조건이 참이면 반복(조건이 거짓일때까지 반복) if의 조거과 동일하게 사용
+#       반복코드
+#       .
+#       .
+
+# a = 0
+# b = int(input())
+# while a < 10 or b == 0:
+#     print(a)
+#     a = a + 1
+
+#무한반복 코드
+
+# while True
+#     print("1")
+
+# while True:
+#     a = input()
+#     print(0)
+#     print(a)
+
+#두 값을 입력받고 이 두 값을 더한 값을 출력 이를 반복하는데 둘다 0값을 입력받았다면 코드를 종료한다.
+
+
+# while True:
+#     a = int(input())
+#     b = int(input())
+#     print (a+b)
+#     if a == 0 and b == 0:
+#         break
+
+# a = 1
+# b = 1
+#
+# while a != 0 or b != 0:
+#     a = int(input())
+#     b = int(input())
+#     print(a+b)
+
+#format
+
+a = 123
+b = (input())
+c = "test"
+print("hello, my name is {}!, here is my {}, welcome".format(a,b,c))
