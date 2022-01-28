@@ -1,0 +1,41 @@
+
+
+# while True:
+# #     a = int(input())
+# #     b = int(input())
+# #     if a != 0 and b != 0:
+# #         print(a+b)
+
+#
+# while True:
+#     a = int(input())
+#     b = int(input())
+#     c = (input())
+#     if a == 0 and b == 0:
+#         break
+#
+#     elif c == "+":
+#         print(a+b)
+#     elif c == "-":
+#         print(a-b)
+#     elif c == "*":
+#         print(a*b)
+#     elif c == "%":
+#         print(a%b)
+
+# T = int(input())
+# while True:   # T >= 0
+#     a = int(input())
+#     b = int(input())
+#     print(a+b)
+#     T = T - 1
+#     print(T)
+#     if T == 0:
+#         break
+
+
+T = int(input())
+for i in range(T):
+    a = int(input())
+    b = int(input())
+    print(a+b)
