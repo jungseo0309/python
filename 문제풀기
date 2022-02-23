@@ -1,0 +1,112 @@
+# 1
+# print("hello world!")
+# 2
+# for i in range(2):
+#     print("강한친구 대한육군")
+# 4
+# print("|\_/|")
+# print("|q p|   /}")
+# print('( 0 )"""\"')
+# print('|"^"`    |')
+# print("||_/=\\__|")
+# 5
+# a = int(input())
+# b = int(input())
+# print(a + b)
+# 6
+# a = int(input())
+# b = int(input())
+# print(a - b)
+# 7
+# a = int(input())
+# b = int(input())
+# print(a * b)
+# 8
+# a = int(input())
+# b = int(input())
+# print(a / b)
+# 9
+# a = 7
+# b = 3
+# print(a + b)
+# print(a - b)
+# print(a * b)
+# print(a / b)
+# print(a % b)
+# 10
+# a = "joonas"
+# print(a,"??!")
+# 12
+# a = 5
+# b = 8
+# c = 4
+# print((a + b) % c)
+# print((a % c)+(b % c)%c)
+# print((a * b)%c)
+# print((a%c) * (b%c)%c)
+# 13
+# a = int(input())
+# b = (input())
+#
+# c = (int(b[2])*a)
+# d = (int(b[1])*a)
+# e = (int(b[0])*a)
+# print(c)
+# print(d)
+# print(e)
+# print(c + d*10 + e*100)
+
+# 14
+# a = int(input())
+# b = int(input())
+# if a > b:
+#     print(">")
+# elif a < b:
+#     print("<")
+# elif a == b:
+#     print("==")
+# 15
+# a = int(input())
+# if 100 >= a >= 90:
+#     print("A")
+# elif 89 >= a >= 80:
+#     print("B")
+# elif 79 >= a >= 70:
+#     print("C")
+# elif 69 >= a >= 60:
+#     print("D")
+# else:
+#     print("F")
+# 16
+# a = int(input())
+# if a * 4 and a % 100 != 0 or a % 400 == 0:
+#     print(1)
+# else:
+#     print(0)
+# 17
+# a = int(input())
+# b = int(input())
+# if a > 0 and b > 0:
+#     print(1)
+# elif a < 0 and b > 0:
+#     print(2)
+# elif a < 0 and b < 0:
+#     print(3)
+# else:
+#     print(4)
+# 18
+# a = int(input())
+# b = int(input())
+# if b - 45 >= 0:
+#     print(a,b-45)
+# elif b - 45 < 0:
+#     print(a-1,b+60-45)
+
+# 19
+a = int(input())
+b = int(input())
+c = int(input())
+if b + c < 60:
+    print(b+c)
+elif b + c > 60:
+    print(a+1,b+c-60)
